@@ -898,6 +898,7 @@
     },
     mounted: function mounted() {
       this.addListeners(this.$el.querySelector('input'));
+      this.setValue(this.value);
     },
     computed: {
       attrs: function attrs() {
